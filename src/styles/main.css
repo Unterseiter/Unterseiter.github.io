@@ -1,12 +1,13 @@
 /* ------------------------------------------- main */
-html{
+/* html{
 
-}
+} */
 
 
 body {
   margin: 0px;
   color: rgb(30, 30, 30);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .container{
@@ -51,11 +52,11 @@ body {
   border-bottom: 1px black solid;
 }
 
-.text-container{
-display: flex;
-flex-direction: column;
-align-items: end;
-text-align: end;
+.text-container-end{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  text-align: end;
   h1{
     font-size: 5rem;   
     margin: 0;
@@ -69,4 +70,109 @@ text-align: end;
 
 .about-me{
   height: 100vh;
+  columns: 2;
+  display: flex;
+  padding: 0 10vw;
 }
+
+.right-column{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  img{
+    border: 1px black solid;
+    border-radius: 25px;
+    height: 70%;
+    width: 400px;
+    overflow: hidden;
+    object-fit: cover;
+  }
+}
+
+.social-vertical{
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  width: 50px;
+  justify-content: space-between;
+
+  button{
+    border: 0 transparent;
+    background: transparent;
+    cursor: pointer;
+
+    img{
+      height: 32px;
+      width: 32px;
+      object-fit: contain;
+      border: transparent;
+    }
+  }
+}
+
+.left-column{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+.header-text{
+  position: relative;
+  top: 0;
+  
+  h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4rem;
+    font-weight: 600;
+    letter-spacing: 10px;
+  }
+}
+
+.text-container-center{
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+width: 500px;
+height: 500px;
+  p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;   
+    font-weight: 400;
+    text-align: left;
+  }
+}
+
+
+/* ------------------------------------------- about-stack (third-section) */
+
+.about-stack{
+height: 100vh;
+padding: 0 10vw;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10%;
+
+aside {
+  width: 10%;
+  height: 500px;
+  float: left;
+  border: 1px black solid;
+
+}
+
+div{
+  height: 500px;
+  width: 80%;
+  border: 1px black solid;
+}
+}
+
