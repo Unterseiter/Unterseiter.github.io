@@ -1,0 +1,72 @@
+/* ------------------------------------------- main */
+html{
+
+}
+
+
+body {
+  margin: 0px;
+  color: rgb(30, 30, 30);
+}
+
+.container{
+  padding: 0 10vw;
+}
+/* ------------------------------------------- header */
+.header {
+  position: absolute;
+  width: 100%;
+  height: 5vh;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 20px 0;
+}
+
+.date {
+  position: relative;
+  right: 10vw;
+  height: min-content;
+  width: max-content;
+  padding: 0 10px 0 10px;
+  border: 1px black solid;
+  border-radius: 25px;
+
+  p {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 5px 0;
+  }
+}
+
+/* ------------------------------------------- hello (first-section) */
+
+.hello {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px black solid;
+}
+
+.text-container{
+display: flex;
+flex-direction: column;
+align-items: end;
+text-align: end;
+  h1{
+    font-size: 5rem;   
+    margin: 0;
+  }
+  h2{
+    font-size: 2rem;   
+  }
+}
+
+/* ------------------------------------------- about-me (second-section) */
+
+.about-me{
+  height: 100vh;
+}
